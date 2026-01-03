@@ -1,0 +1,31 @@
+Project Layout
+
+
+Phase1- Create AI Agent
+
+1.> Set up API keys for Groq and Tavily ( To power LLMs with lastest information)
+2.> Setup LLM and Tools
+3.> Set AI Agent with Search tool functionality 
+
+Phase 2 - Setup Backend ( With FastAPI)
+
+1.> Setup Pydantic Model ( Schema Validation => How does 2 system talk to each other)
+2.> Setup AI Agent from FrontEnd Request
+3.> Run app and explore Swagger UI Docs
+
+Phase 3 - Setup FrontEnd
+
+1.> Setup UI with stremlit ( model provider , model , system prompt , query )
+2. Connect with backend via URL
+
+
+Tools and Tech Stack
+
+LangGraph and ReAct agent ( Reason and then act)
+FastAPI for API calls
+Groq and OpenAI for LLM
+Streamlit for UI( Frontend)
+Langchain for tools
+Uvicorn for hosting the app
+Python
+VSCode
